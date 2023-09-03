@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Orçamento Picolé Dorita</h1>
+    </header>
+    <section>
+        <div>  
+            <div class="container">
+                <P> Morango
+                    <input type="number" name="txtmor" id="txtmor"> <br>
+                    Tropical
+                    <input type="number" name="txttro" id="txttro"> <br>
+                    Abacaxi
+                    <input type="number" name="txtaba" id="txtaba"> <br>
+                    Amendoim
+                    <input type="number" name="txtame" id="txtame"> <br>
+                    Maracuja
+                    <input type="number" name="txtmar" id="txtmar"> <br>
+                    Chocolate
+                    <input type="number" name="txtchoc" id="txtchoc"> <br>
+                    Chocolate Branco
+                    <input type="number" name="txtchocb" id="txtchocb"> <br>
+                    
+                </P>
+                <p>
+                    Tamarindo
+                    <input type="number" name="txttam" id="txttam"> <br>
+                    Ovomaltine
+                    <input type="number" name="txtovo" id="txtovo"> <br>
+                    Biscoito
+                    <input type="number" name="txtbis" id="txtbis"> <br>
+                    Coco
+                    <input type="number" name="txtcoco" id="txtcoco"> <br>
+                    Black e White
+                    <input type="number" name="txtbew" id="txtbew"> <br>
+                    Jaca
+                    <input type="number" name="txtjaca" id="txtjaca"> <br>
+                    Doce de Leite
+                    <input type="number" name="txtdocel" id="txtdocel"> <br>
+                </p>
+                
+                <select name="lista" id="sellist" size="10">
+                    <option>Sabores Adicionados: </option>
+                </select> 
+                <input type="button"  value="Adicionar" id="btnadd" onclick="adicionar()">
+    
+            </div>
+            
+            
+        </div>
+        <div class="container1">
+            <input type="button" value="Finalizar pedido" id="btnfin" onclick="finalizar()">
+            <label>
+                <textarea id="txtarea">Valor Total</textarea>
+            </label>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Picole Dorita</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
